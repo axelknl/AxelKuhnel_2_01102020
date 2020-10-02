@@ -1,0 +1,89 @@
+.s-room {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.s-room h3{
+    font-size: 14px;
+}
+
+.s-room .main {
+    margin-right: 18px;
+    padding: 45px 40px;
+    background-color: var(--third-color);
+    border-radius: 15px;
+}
+
+.s-room .roomlist h3, p, ul{
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+
+.s-room li{
+    display: inline-block;
+}
+
+.s-room .roomlist {
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.s-room .room img{
+    border-radius: inherit;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+    height: 114px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.s-room .room {
+    border-radius: 15px;
+    border: 5px solid white;
+    background-color: white;
+    width: 236px;
+    margin-bottom: 30px;
+}
+
+.s-room .more{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.s-room .bestlist {
+    display: flex;
+    flex-direction: column;
+}
+
+.s-best {
+    padding: 45px 37px 0px 37px;
+    background-color: var(--third-color);
+    border-radius: 15px;
+}
+
+.s-best .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.s-best .top i {
+    color: black;
+}
+
+.s-best .best {
+    display: flex;
+    flex-direction: row;
+    width: 333px;
+    height: 134px;
+}
+
+.s-best img{
+    height: 100%;
+    width: 127px;
+}

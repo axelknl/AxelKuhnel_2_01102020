@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .logo {
+    align-items: left;
+    display: block;
+    width: 95px;
+    margin-top: 45px;
+}
+
+header .menu {
+    align-content: right;
+    display: flex;
+    flex-direction: row;
+}
+
+header li, header .sign{
+    padding-top: 45px;
+    border-top: 2px solid white;
+}
+
+header li{
+    display: inline-block;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+header li:hover{
+    border-top-color: var(--main-color);
+}
+
+header .sign{
+    margin-left: 50px;
+    font-weight: 600;
+    color: var(--main-color);
+}
