@@ -1,0 +1,83 @@
+
+.s-activity h2{
+    margin-bottom: 25px;
+}
+
+.s-activity .activity{
+    position: relative;
+    border-radius: 15px;
+    -webkit-box-shadow: 18px 17px 42px -32px rgba(0,0,0,0.57);
+    -moz-box-shadow: 18px 17px 42px -32px rgba(0,0,0,0.57);
+    box-shadow: 18px 17px 42px -32px rgba(0,0,0,0.57);
+}
+
+.s-activity h3 {
+    font-size: 14px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    bottom: 0;
+    background-color: white;
+    line-height: 57px;
+    height: 57px;
+    border-radius: inherit;
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+}
+
+.s-activity .grid{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.s-activity .col{
+    margin-bottom: 30px;
+    height: 446px;
+    width: 302px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.s-activity .act-1 {
+    background: center url("../../assets/vieuxPort.jpg");
+    background-size: cover;
+    height: 446px;
+    width: 100%;
+}
+
+.s-activity .act-2 {
+    background: center url("../../assets/fortDePomègues.jpg");
+    background-size: cover;
+    height: 237px;
+    width: 100%;
+}
+
+.s-activity .act-3 {
+    background: center url("../../assets/ileDuFrioul.jpg");
+    background-size: cover;
+    height: 165px;
+    width: 100%;
+}
+
+.s-activity .act-4 {
+    background: center url("../../assets/parcNational.jpg");
+    background-size: cover;
+    height: 446px;
+    width: 100%;
+}
+
+.s-activity .act-5 {
+    background: center/100% url("../../assets/notreDame.jpg");
+    height: 195px;
+    width: 100%;
+}
+
+.s-activity .act-6 {
+    background: center/100% url("../../assets/parcLongchamp.jpg");
+    height: 210px;
+    width: 100%;
+}
