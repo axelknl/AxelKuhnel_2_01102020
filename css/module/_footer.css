@@ -22,3 +22,18 @@ footer li{
 footer .col{
     flex: 1;
 }
+
+@media screen and (max-width: 375px) {
+    footer {
+        margin-top: 26px;
+        padding: 16px 21px 34px 21px;
+    }
+
+    footer .container {
+        flex-direction: column;
+    }
+
+    footer h3{
+        margin-top: 33px;
+    }
+}

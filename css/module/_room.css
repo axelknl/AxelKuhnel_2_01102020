@@ -32,7 +32,7 @@
     flex-wrap: wrap;
 }
 
-.s-room .room img{
+.s-room .room .img{
     border-radius: inherit;
     border-bottom-left-radius: unset;
     border-bottom-right-radius: unset;
@@ -40,6 +40,7 @@
     width: 100%;
     margin-bottom: 5px;
 }
+
 
 .s-room .room {
     border-radius: 15px;
@@ -118,4 +119,53 @@
 
 .s-best .content ul{
     margin-top: 40px;
+}
+
+@media screen and (max-width: 375px) {
+    .s-room {
+        margin-bottom: 60px;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .s-room .main {
+        background-color: white;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 0px;
+        padding: 41px 21px 0 21px;
+    }
+
+    .s-room .roomlist{
+        box-sizing: border-box;
+        width: inherit;
+    }
+
+    .s-room .main .room {
+        margin-bottom: 12px;
+        box-sizing: border-box;
+        display: inline-block;
+        width: inherit;
+    }
+
+    .s-room .more {
+        margin-top: 23px;
+        margin-bottom: 0px;
+    }
+
+    .s-room .main a{
+        width: inherit;
+    }
+
+    .s-room .s-best {
+        box-sizing: border-box;
+        width: 100%;
+        border-radius: 0px;
+        padding: 43px 21px 0 21px;
+    }
+
+    .s-best .best{
+        padding-right: 40px;
+        width: inherit;
+    }
 }

@@ -38,3 +38,7 @@ ul {
 .starnone {
     color: var(--third-color);
 }
+
+.cb {
+    clear: both;
+}

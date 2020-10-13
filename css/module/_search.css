@@ -16,6 +16,10 @@
     background-color: var(--third-color);
 }
 
+.search-bar-mobile {
+    display: none;
+}
+
 .search-bar i{
     color: black;
     background-color: var(--third-color);
@@ -41,7 +45,7 @@
     color: black;
 }
 
-.search-bar a{
+.search-bar .search-button{
     display: inline-block;
     box-sizing: border-box;
     line-height: 49px;
@@ -54,25 +58,62 @@
     background-color: var(--main-color);
 }
 
-.s-filter{
-    visibility: hidden;
-    margin-bottom: 37px;
-    height: 46px;
+
+.s-filter {
     display: flex;
     flex-direction: row;
 }
 
 .s-filter h3{
-    margin-right: 35px;
-    line-height: 46px;
+    margin-right: 32px;
+    line-height: 50px;
 }
 
+.s-filter ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: 50px;
+    
+}
 
+.s-filter li{
+    box-sizing: border-box;
+    border: 2px solid var(--third-color);
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    margin-right: 24px;
+    line-height: inherit;
+    border-radius: 50px;
+}
+
+.s-filter li:hover{
+    background-color: var(--main-color);
+    color: white;
+    border-color: black;
+}
+
+.s-filter i{
+    text-align: center;
+    margin-right: 13px;
+    width: 50px;
+    color: var(--main-color);
+    background-color: var(--second-color);
+    line-height: inherit;
+    border-radius: inherit;
+}
+
+.s-filter p {
+    font-size: 16px;
+    font-weight: 700;
+}
 
 .s-search .info {
     display: flex;
     flex-direction: row;
     height: 24px;
+    margin-top: 35px;
     margin-bottom: 37px;
 }
 
@@ -89,4 +130,40 @@
 
 .s-search .info .desc{
     line-height: 25px;
+}
+
+@media screen and (max-width: 375px) {
+    .s-search {
+        padding: 0 20px 0 20px;
+        box-sizing: border-box;
+    }
+
+    .s-filter {
+        margin-top: 37px;
+        flex-direction: column;
+    }
+
+    .s-filter li {
+        margin-bottom: 13px;
+    }
+
+    .s-search .info{
+        margin-top: 19px;
+        margin-bottom: 40px;
+    }
+
+    .search-bar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .search-bar i {
+        line-height: 49px;
+    }
+
+    .search-bar input {
+        width: 100%;
+    }
+
 }
