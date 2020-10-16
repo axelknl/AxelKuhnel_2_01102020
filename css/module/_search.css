@@ -138,8 +138,11 @@
         box-sizing: border-box;
     }
 
+    .s-search h1{
+        margin-bottom: 16px;
+    }
+
     .s-filter {
-        margin-top: 37px;
         flex-direction: column;
     }
 
@@ -156,6 +159,8 @@
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+        margin-top: 35px;
+        margin-bottom: 25px;
     }
 
     .search-bar i {
@@ -164,6 +169,20 @@
 
     .search-bar input {
         width: 100%;
+    }
+
+    .search-bar .search-button {
+        display: none;
+    }
+
+    .search-bar .search-button-mobile {
+        background-color: var(--main-color);
+        border-radius: inherit;
+    }
+
+    .search-button-mobile i {
+        background-color: var(--main-color);
+        color: white;
     }
 
 }

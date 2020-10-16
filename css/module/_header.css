@@ -8,7 +8,7 @@ header .logo {
     align-items: left;
     display: block;
     width: 95px;
-    margin-top: 45px;
+    margin-top: 35px;
 }
 
 header .menu {
@@ -36,4 +36,52 @@ header .sign{
     margin-left: 50px;
     font-weight: 600;
     color: var(--main-color);
+}
+
+.menu-mobile {
+    font-size: 16px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.menu-mobile .menu-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 34px;
+    padding: 0 21px 0 21px;
+}
+
+.menu-mobile .logo-mobile {
+    width: 95px;
+}
+
+.menu-mobile .sign-mobile {
+    color: var(--main-color);
+    font-weight: 600;
+    margin-top: 14px;
+}
+
+.menu-mobile .menu-link {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-mobile .menu-link a {
+    font-weight: 500;
+    padding-bottom: 13px;
+    border-bottom: 3px solid var(--third-color);
+    text-align: center;
+    flex: 1;
+}
+
+.menu-mobile .menu-link a:hover {
+    border-bottom-color: var(--main-color);
+    color: var(--main-color);
+}
+
+@media screen and (max-width: 375px) {
+    header {
+        display: none;
+    }
 }
