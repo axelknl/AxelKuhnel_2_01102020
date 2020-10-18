@@ -42,6 +42,7 @@ header .sign{
     font-size: 16px;
     padding-top: 30px;
     box-sizing: border-box;
+    display: none;
 }
 
 .menu-mobile .menu-top {
@@ -80,8 +81,12 @@ header .sign{
     color: var(--main-color);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 570px){
     header {
         display: none;
+    }
+
+    .menu-mobile {
+        display: contents;
     }
 }

@@ -23,7 +23,7 @@ footer .col{
     flex: 1;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 570px) {
     footer {
         margin-top: 26px;
         padding: 16px 21px 34px 21px;

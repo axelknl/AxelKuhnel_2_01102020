@@ -72,17 +72,19 @@
 
 .s-activity .act-5 {
     background: center/100% url("../../assets/notreDame.jpg");
+    background-size: cover;
     height: 195px;
     width: 100%;
 }
 
 .s-activity .act-6 {
     background: center/100% url("../../assets/parcLongchamp.jpg");
+    background-size: cover;
     height: 210px;
     width: 100%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 570px) {
     .s-activity {
         box-sizing: border-box;
         width: 100%;

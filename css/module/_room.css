@@ -121,11 +121,36 @@
     margin-top: 40px;
 }
 
-@media screen and (max-width: 375px) {
+/* lapotop */
+@media screen and (max-width: 1024px) {
+    .s-room {
+        flex-direction: column-reverse;
+    }
+    
+    .s-room .main {
+        margin: 0;
+    }
+
+    .s-room .roomlist {
+        justify-content: space-around;
+    }
+
+    .s-best {
+        margin-bottom: 50px;
+    }
+    
+    .s-best .bestlist {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 570px) {
     .s-room {
         margin-bottom: 60px;
         width: 100%;
-        flex-direction: column-reverse;
     }
 
     .s-room .main {
@@ -146,6 +171,7 @@
         box-sizing: border-box;
         display: inline-block;
         width: inherit;
+        max-width: 333px;
     }
 
     .s-room .more {
@@ -165,7 +191,13 @@
     }
 
     .s-best .best{
+        box-sizing: border-box;
         padding-right: 40px;
         width: inherit;
+        max-width: 333px;
+    }
+
+    .s-best .content ul{
+        margin-top: 30px;
     }
 }
