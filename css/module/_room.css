@@ -147,6 +147,14 @@
 }
 
 
+@media screen and (max-width: 859px) {
+    .s-best .bestlist{
+        margin: 0 auto;
+        justify-content: space-around;
+        }
+    
+}
+
 @media screen and (max-width: 570px) {
     .s-room {
         margin-bottom: 60px;
@@ -164,9 +172,11 @@
     .s-room .roomlist{
         box-sizing: border-box;
         width: inherit;
+        text-align: center;
     }
 
     .s-room .main .room {
+        text-align: left;
         margin-bottom: 12px;
         box-sizing: border-box;
         display: inline-block;

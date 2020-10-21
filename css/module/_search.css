@@ -58,18 +58,24 @@
     background-color: var(--main-color);
 }
 
-.search-button-mobile {
+.search-bar .search-mobile {
+    display: none;
     box-sizing: border-box;
     line-height: 49px;
-    background-color: var(--main-color);
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: inherit;
 }
 
-.search-button-mobile i {
-    line-height: inherit;
-    box-sizing: border-box;
+.search-bar .search-mobile i {
+    text-align: center;
+    border-radius: inherit;
+    padding: 0 15px;
     background-color: var(--main-color);
     color: white;
+    margin: 0 0;
 }
+
 
 
 .s-filter {
@@ -190,7 +196,7 @@
         display: none;
     }
 
-    .search-button-mobile {
+    .search-bar .search-mobile {
         display: contents;
     }
 
